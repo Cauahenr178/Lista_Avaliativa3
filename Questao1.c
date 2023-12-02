@@ -25,7 +25,7 @@ int romanoParaDecimal(char numRomano[]) {
     return numDecimal;
 }
 
-int main() {
+int main(){
     char numRomano[13];
     scanf("%s", numRomano);
 
