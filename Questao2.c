@@ -13,7 +13,7 @@ int main(){
      for (int i = 1; i <= numMeses; i++) {
         montante += investimentoInicial;
         montante *= (1 + taxaJuros);
-           printf("Montante ao fim do mes %d: R$ %.2lf\n", i, montante);
+            printf("Montante ao fim do mes %d: R$ %.2lf\n", i, montante);
     
 }
 
