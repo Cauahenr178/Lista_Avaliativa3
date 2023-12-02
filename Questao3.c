@@ -64,7 +64,7 @@ int main(){
              printf("%s nao pode circular %s\n", placa, dia_minusculo);
         } else {
               printf("%s pode circular %s\n", placa, dia_minusculo);
-      }
+    }
   }
     return 0;
 }
