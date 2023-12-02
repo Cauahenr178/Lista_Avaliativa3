@@ -10,7 +10,7 @@ int main(){
     scanf("%lf", &taxaJuros); 
     
     double montante = 0;
-    for (int i = 1; i <= numMeses; i++) {
+     for (int i = 1; i <= numMeses; i++) {
         montante += investimentoInicial;
         montante *= (1 + taxaJuros);
            printf("Montante ao fim do mes %d: R$ %.2lf\n", i, montante);
