@@ -34,8 +34,8 @@ int main(){
                     validar_placa = 0;
                     break;
             }
-        }
-      }
+         }
+     }
     }
 
     int index = 0;
