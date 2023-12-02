@@ -62,7 +62,7 @@ int obterValor(char romano) {
         case 'M':
             return 1000;
         default:
-            return 0;
+           return 0;
  
  }
 }
