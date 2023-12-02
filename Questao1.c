@@ -6,8 +6,8 @@ int obterValor(char romano);
 void decimalParaBinario(int numDecimal) {
     if (numDecimal > 1) {
         decimalParaBinario(numDecimal / 2);
- }
-    printf("%d", numDecimal % 2);
+  }
+     printf("%d", numDecimal % 2);
 }
 
 int romanoParaDecimal(char numRomano[]) {
@@ -63,6 +63,7 @@ int obterValor(char romano) {
             return 1000;
         default:
             return 0;
+ 
  }
-
 }
+
